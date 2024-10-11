@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #232f3e; /* Couleur de fond similaire à celle d'Amazon */
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.logo {
+    height: 80px; /* Ajuste la taille selon tes préférences */
+    vertical-align: middle; /* Aligne le logo au centre */
+}
+
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ffa41c; /* Couleur similaire à Amazon */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e68a00; /* Couleur au survol */
+}
+
+.container p {
+    text-align: center;
+    color: #333;
+}
