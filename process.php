@@ -36,10 +36,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Enregistrer les données dans le fichier JSON
     file_put_contents($filePath, json_encode($currentData, JSON_PRETTY_PRINT))
-        
-    // Exemple de réponse
-    echo "Données reçues : $firstName $lastName, $dob, $email, $address.";
-} else {
-    echo "Méthode non autorisée.";
-}
 ?>
